@@ -1,0 +1,30 @@
+# Шаблоны, специфичные для обсидиана.
+matches:
+
+# Date task created
+- triggers: ['.dttcr', '.дти']
+  replace: "➕{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: "%Y-%m-%d"
+
+# Date task due
+- triggers: ['.dttd', '.дти']
+  replace: "🗓️{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: "%Y-%m-%d"
+
+# Date task completed
+- triggers: ['.dttcm', '.дти']
+  replace: "{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: "✅%Y-%m-%d"
+

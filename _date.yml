@@ -1,0 +1,28 @@
+matches:
+
+# Date russian (format)
+- triggers: ['.dtr', '.дтр']
+  replace: "{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+        format: "%d.%m.%Y"
+
+# Date ISO
+- triggers: ['.dti', '.дти']
+  replace: "{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: "%Y-%m-%d"
+
+# Date ISO as an obsidian link (to a daily note)
+- triggers: ['.dto', '.дти']
+  replace: "{{mydate}}"
+  vars:
+  - name: mydate
+    type: date
+    params:
+      format: "[[%Y-%m-%d]]"

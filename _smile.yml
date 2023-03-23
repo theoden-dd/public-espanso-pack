@@ -1,0 +1,6 @@
+# Все про смайлы.
+matches:
+
+# slack-shrug
+- triggers: ['.shrug', '.смнз']
+  replace: ¯\_(ツ)_/¯

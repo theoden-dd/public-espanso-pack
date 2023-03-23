@@ -1,0 +1,7 @@
+imports:
+- './_communication.yml'
+- './_date.yml'
+- './_link.yml'
+- './_meet.yml'
+- './_obsidian.yml'
+- './_smile.yml'
