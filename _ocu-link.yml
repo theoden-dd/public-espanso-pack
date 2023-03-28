@@ -1,0 +1,29 @@
+# Про "Открытый городской университет"
+# Как избранное в браузере, только под контролем версий.
+# И доступное не только в браузере, а в любом поле ввода.
+matches:
+
+# open-city-university-main-announcement
+- triggers: ['.ocuma', '.адрпчкод']
+  replace: https://t.me/c/1819434929/1/485
+
+# open-city-university-memorandum
+- triggers: ['.ocumemo', '.адрпчкод']
+  replace: https://docs.google.com/document/u/0/d/1k_VlOL43oWAV4nPAyt8rl6OdwnQeuhsd-i0m0Z55otA/mobilebasic
+
+# open-city-university-telegram-chat
+- triggers: ['.ocutgchat', '.адрпчкод']
+  replace: https://t.me/+tgOIQzsI7QczMzAy
+
+# open-city-university-registration-form
+- triggers: ['.ocuregform', '.адрпчкод']
+  replace: https://forms.gle/rVTzSX6TyS4FGW4Z7
+
+# open-city-university-telegram-announce-topic
+- triggers: ['.ocutgannctopic', '.адрпчкод']
+  replace: https://t.me/c/1819434929/489
+
+# open-city-university-indieweb-lab-topic
+- triggers: ['.ocutgiwltopic', '.адрпчкод']
+  replace: https://t.me/c/1819434929/332
+

@@ -5,4 +5,5 @@ imports:
 - './_link.yml'
 - './_meet.yml'
 - './_obsidian.yml'
+- './_ocu-link.yml'
 - './_smile.yml'
