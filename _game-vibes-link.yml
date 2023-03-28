@@ -1,0 +1,28 @@
+# Про "Чувство игры"
+# Как избранное в браузере, только под контролем версий.
+# И доступное не только в браузере, а в любом поле ввода.
+matches:
+
+# game-vibes-main-page
+- triggers: ['.gvmp', '.адрпчкод']
+  replace: https://gamevibes.notion.site/gamevibes/GameVibes-49445aa411e94fe69f8d7cb2feba730b
+
+# game-vibes-telegram-channel
+- triggers: ['.gvtgchan', '.адрпчкод']
+  replace: https://t.me/gamevibes_kld
+
+# game-vibes-telegram-chat
+- triggers: ['.gvtgchat', '.адрпчкод']
+  replace: https://t.me/gamevibes_chat
+
+# game-vibes-registration-form
+- triggers: ['.gvregform', '.адрпчкод']
+  replace: https://docs.google.com/forms/d/e/1FAIpQLSdg2WMqTLUpTEJs1IKCe9h1oJ3F8geuBkrnA30Ev-BQ2p-5yw/viewform
+
+# game-vibes-game-fund
+- triggers: ['.gvgf', '.адрпчкод']
+  replace: https://gamevibes.notion.site/b792a1227b284287b4ea63bae33cf2df?v=1f04c572cdaa433a81630151e4de82cb
+
+# game-vibes-vk-channel
+- triggers: ['.gvvkchan', '.адрпчкод']
+  replace: https://vk.com/public215844825

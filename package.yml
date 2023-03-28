@@ -1,6 +1,7 @@
 imports:
 - './_communication.yml'
 - './_date.yml'
+- './_game-vibes-link.yml'
 - './_link.yml'
 - './_meet.yml'
 - './_obsidian.yml'
