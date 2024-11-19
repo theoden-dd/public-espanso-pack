@@ -5,6 +5,7 @@ imports:
 - './_hr.yml'
 - './_link.yml'
 - './_meet.yml'
+- './_mentoring.yml'
 - './_obsidian.yml'
 - './_ocu-link.yml'
 - './_official-site-link.yml'
