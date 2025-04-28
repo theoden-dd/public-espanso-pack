@@ -1,0 +1,8 @@
+# Данные форм, которые запариваешься вводить.
+# Дает защиту от опечаток, как минимум.
+matches:
+
+# github-username
+- triggers: ['.ghusrnm', '.гхимплз']
+  replace: theoden-dd
+

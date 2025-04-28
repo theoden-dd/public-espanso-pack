@@ -2,6 +2,10 @@
 # И доступное не только в браузере, а в любом поле ввода.
 matches:
 
+# github-official-repo
+- triggers: ['.ghofrepo', '.гхофрепо']
+  replace: https://github.com/theoden-dd/
+
 # xkcd-extrapolation
 - triggers: ['.xkextrap', '.адрпчкод']
   replace: https://xkcd.ru/605/
