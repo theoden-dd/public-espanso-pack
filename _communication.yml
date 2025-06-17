@@ -7,3 +7,9 @@ matches:
     3.1) Мета-уровень: https://nometa.xyz/
     3.2) Правильные вопросы: https://sitengine.ru//smart-question-ru.html
 
+# en-no-hello-meta
+- triggers: ['.ennhm', '.пйкди']
+  replace: |
+    3) https://nohello.net/en/
+    3.1) Meta-level: https://dontasktoask.com/
+    3.2) The right questions: http://www.catb.org/esr/faqs/smart-questions.html
